@@ -49,7 +49,7 @@
                         <li class="hover:bg-yellow-300"><a>Services</a></li>
                         <li class="hover:bg-yellow-300"><a>About Us</a></li>
                         <li class="hover:bg-yellow-300"><a>Fleet</a></li>
-                        <li class="hover:bg-yellow-300"><a>Book your trip</a></li>
+                        <li class="hover:bg-yellow-300"><a><i class="fa-solid fa-car"></i>Book your trip</a></li>
 
                     </ul>
                 </div>
@@ -63,7 +63,7 @@
                     <li class="hover:bg-yellow-300"><a>Fleet</a></li>
                     <li
                         class="border-2 border-orange-300 hover:bg-yellow-500 font-semibold rounded-lg ml-2 pt-1.5 pb-1.5">
-                        <a>Book your trip</a>
+                        <a><i class="fa-solid fa-car"></i>Book your trip</a>
                     </li>
 
                 </ul>
@@ -93,32 +93,32 @@
                     <div class="grid lg:grid-cols-6 grid-cols-1 p-2 lg:p-6 lg:gap-x-5">
                         <div class="shadow-2xl pt-4 pb-4 pl-2 pr-2 rounded-lg">
                             <p class="font-bold font-mono">Pick up location</p>
-                            <input class="rounded-sm mt-2 max-w-full" type="search" name="" id=""
-                                placeholder="Enter a location">
+                            <input class="rounded-sm mt-2 p-2 max-w-full" type="search" name="" id=""
+                                placeholder="Location">
                         </div>
                         <div class="shadow-2xl pt-4 pb-4 pl-2 pr-2 rounded-lg">
                             <p class="font-bold font-mono">Drop off location</p>
-                            <input class="rounded-lg mt-2 max-w-full" type="search" name="" id=""
-                                placeholder="Enter a location">
+                            <input class="rounded-lg mt-3 p-2 max-w-full" type="search" name="" id=""
+                                placeholder="Location">
                         </div>
                         <div class="shadow-2xl pt-4 pb-4 pl-2 pr-2 rounded-lg">
                             <p class="font-bold font-mono">Date</p>
-                            <input class="rounded-lg mt-6 max-w-full" type="date" name="" id=""
-                                placeholder="Enter a location">
+                            <input class="rounded-lg lg:mt-9 p-2 max-w-full" type="date" name="" id=""
+                                placeholder="">
                         </div>
                         <div class="shadow-2xl pt-4 pb-4 pl-2 pr-2 rounded-lg">
                             <p class="font-bold font-mono">Time</p>
-                            <input class="rounded-lg lg:mt-6 max-w-full" type="time" name="" id=""
-                                placeholder="Enter a location">
+                            <input class="rounded-lg lg:mt-10 p-2 max-w-full" type="time" name="" id=""
+                                placeholder="">
                         </div>
                         <div class="shadow-2xl pt-4 pb-4 pl-2 pr-2 rounded-lg">
                             <p class="font-bold font-mono">Return pick up date</p>
-                            <input class="rounded-lg mt-2 max-w-full" type="date" name="" id=""
+                            <input class="rounded-lg lg:mt-5 p-2 max-w-full" type="date" name="" id=""
                                 placeholder="Enter a location">
                         </div>
                         <div class="shadow-2xl pt-4 pb-4 pl-2 pr-2 rounded-lg">
                             <p class="font-bold font-mono">Return pick up time</p>
-                            <input class="rounded-lg mt-2 max-w-full" type="time" name="" id=""
+                            <input class="rounded-lg lg:mt-5 p-2 max-w-full" type="time" name="" id=""
                                 placeholder="Enter a location">
                         </div>
                     </div>
@@ -129,33 +129,52 @@
                     <div class="grid lg:grid-cols-6 grid-cols-1 p-2 lg:p-6 lg:gap-x-5">
                         <div class="shadow-2xl pt-4 pb-4 pl-2 pr-2 rounded-lg">
                             <p class="font-bold font-mono">Pick up location</p>
-                            <input class="rounded-lg mt-2 max-w-full" type="search" name="" id=""
-                                placeholder="Enter a location">
+                            <input class="rounded-lg mt-2 p-2 max-w-full" type="search" name="" id=""
+                                placeholder="Location">
                         </div>
                         <div class="shadow-2xl pt-4 pb-4 pl-2 pr-2 rounded-lg">
-                            <p class="font-bold font-mono">Drop off location</p>
-                            <input class="rounded-lg mt-2 max-w-full" type="search" name="" id=""
-                                placeholder="Enter a location">
+                            <p class="font-bold font-mono"></p>
+                            <!-- form -->
+                            <label class="form-control w-full max-w-xs">
+                                <div class="label">
+                                    <span class="label-text font-bold">Duration</span>
+                                </div>
+                                <select class="select select-bordered mt-5">
+                                    <option disabled selected>pick one</option>
+                                    <option>4 Hour</option>
+                                    <option>5 Hour</option>
+                                    <option>6 Hour</option>
+                                    <option>7 Hour</option>
+                                    <option>8 Hour</option>
+                                </select>
+                            </label>
                         </div>
                         <div class="shadow-2xl pt-4 pb-4 pl-2 pr-2 rounded-lg">
                             <p class="font-bold font-mono">Date</p>
-                            <input class="rounded-lg mt-6 max-w-full" type="date" name="" id=""
-                                placeholder="Enter a location">
+                            <input class="rounded-lg lg:mt-10 p-2 max-w-full" type="date" name="" id=""
+                                placeholder="">
                         </div>
                         <div class="shadow-2xl pt-4 pb-4 pl-2 pr-2 rounded-lg">
                             <p class="font-bold font-mono">Time</p>
-                            <input class="rounded-lg lg:mt-6 max-w-full" type="time" name="" id=""
+                            <input class="rounded-lg lg:mt-10 p-2 max-w-full" type="time" name="" id=""
                                 placeholder="Enter a location">
                         </div>
                         <div class="shadow-2xl pt-4 pb-4 pl-2 pr-2 rounded-lg">
-                            <p class="font-bold font-mono">Return pick up date</p>
-                            <input class="rounded-lg mt-2 max-w-full" type="date" name="" id=""
-                                placeholder="Enter a location">
+                            <!-- form -->
+                            <label class="form-control w-full max-w-xs">
+                                <div class="label">
+                                    <span class="label-text font-bold">Service</span>
+                                </div>
+                                <select class="select select-bordered  lg:mt-7 p-2">
+                                    <option disabled selected>pick one</option>
+                                    <option>As directed</option>
+                                    <option>Wedding Hire</option>
+                                </select>
+                            </label>
                         </div>
-                        <div class="shadow-2xl pt-4 pb-4 pl-2 pr-2 rounded-lg">
-                            <p class="font-bold font-mono">Return pick up time</p>
-                            <input class="rounded-lg mt-2 max-w-full" type="time" name="" id=""
-                                placeholder="Enter a location">
+                        <div class="shadow-2xl flex justify-center items-center pt-4 pb-4 pl-2 pr-2 rounded-lg">
+                            <button class="btn btn-outline btn-warning">Search</button>
+
                         </div>
                     </div>
                 </div>
