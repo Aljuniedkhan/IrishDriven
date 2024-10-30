@@ -90,45 +90,47 @@
             <div role="tablist" class="tabs tabs-bordered">
                 <input type="radio" name="my_tabs_1" role="tab" class="tab" aria-label="OneWay" />
                 <div role="tabpanel" class="tab-content p-10">
-                    <div class="grid lg:grid-cols-6 grid-cols-1 p-2 lg:p-6 lg:gap-x-5">
-                        <div class="shadow-2xl pt-4 pb-4 pl-2 pr-2 rounded-lg">
-                            <p class="font-bold font-mono">Pick up location</p>
-                            <input class="rounded-lg mt-2 p-2 max-w-full" type="search" name="" id=""
-                                placeholder="Location">
+                    <div class="grid lg:grid-cols-6 grid-cols-1 p-2 lg:p-3 lg:gap-x-5">
+                        <div class="shadow-2xl pt-4 pl-2 pr-2 space-y-4 rounded-lg">
+                            <span class="label-text font-bold">Pickup Location</span>
+                            <input type="text" placeholder="Location"
+                                class="input input-bordered input-warning w-full max-w-xs" />
                         </div>
-                        <div class="shadow-2xl pt-4 pb-4 pl-2 pr-2 rounded-lg">
-                            <p class="font-bold font-mono">Drop off location</p>
-                            <input class="rounded-lg mt-3 p-2 max-w-full" type="search" name="" id=""
-                                placeholder="Location">
+                        <div class="shadow-2xl pt-4 pl-2 pr-2 space-y-4 rounded-lg">
+                            <span class="label-text font-bold">Dropoff Location</span>
+                            <input type="text" placeholder="Location"
+                                class="input input-bordered input-warning w-full max-w-xs" />
                         </div>
-                        <div class="shadow-2xl pt-4 pb-4 pl-2 pr-2 rounded-lg">
-                            <p class="font-bold font-mono">Date</p>
-                            <input class="rounded-lg lg:mt-9 p-2 max-w-full" type="date" name="" id="" placeholder="">
+                        <div class="shadow-2xl pt-4 pl-2 pr-2 space-y-4 rounded-lg">
+                            <span class="label-text font-bold">Pickup Location</span>
+                            <input type="date" placeholder=""
+                                class="input input-bordered input-warning w-full max-w-xs" />
                         </div>
-                        <div class="shadow-2xl pt-4 pb-4 pl-2 pr-2 rounded-lg">
-                            <p class="font-bold font-mono">Time</p>
-                            <input class="rounded-lg lg:mt-10 p-2 max-w-full" type="time" name="" id="" placeholder="">
+                        <div class="shadow-2xl pt-4 pl-2 pr-2 space-y-4 rounded-lg">
+                            <span class="label-text font-bold">Time</span>
+                            <input type="time" placeholder=""
+                                class="input input-bordered input-warning w-full max-w-xs" />
                         </div>
-                        <div class="shadow-2xl pt-4 pb-4 pl-2 pr-2 rounded-lg">
-                            <p class="font-bold font-mono">Return pick up date</p>
-                            <input class="rounded-lg lg:mt-5 p-2 max-w-full" type="date" name="" id=""
-                                placeholder="Enter a location">
+                        <div class="shadow-2xl pt-2 pl-2 pr-2 rounded-lg">
+                            <span class="label-text font-bold">Return pickup Date</span>
+                            <input type="date" placeholder=""
+                                class="input input-bordered input-warning w-full max-w-xs" />
                         </div>
-                        <div class="shadow-2xl pt-4 pb-4 pl-2 pr-2 rounded-lg">
-                            <p class="font-bold font-mono">Return pick up time</p>
-                            <input class="rounded-lg lg:mt-5 p-2 max-w-full" type="time" name="" id=""
-                                placeholder="Enter a location">
+                        <div class="shadow-2xl pt-2 pl-2 pr-2 pb-2 rounded-lg">
+                            <span class="label-text font-bold">Return pickup time</span>
+                            <input type="time" placeholder=""
+                                class="input input-bordered input-warning w-full max-w-xs" />
                         </div>
                     </div>
                 </div>
 
                 <input type="radio" name="my_tabs_1" role="tab" class="tab" aria-label="ByHour" checked="checked" />
                 <div role="tabpanel" class="tab-content p-10">
-                    <div class="grid lg:grid-cols-6 grid-cols-1 p-2 lg:p-6 lg:gap-x-5">
-                        <div class="shadow-2xl pt-4 pb-4 pl-2 pr-2 rounded-lg">
-                            <p class="font-bold font-mono">Pick up location</p>
-                            <input class="rounded-lg mt-2 p-2 max-w-full" type="search" name="" id=""
-                                placeholder="Location">
+                    <div class="grid lg:grid-cols-6 grid-cols-1 p-2 lg:p-3 lg:gap-x-5">
+                        <div class="shadow-2xl pt-4 pl-2 pr-2 space-y-4 rounded-lg">
+                            <span class="label-text font-bold">Pickup Location</span>
+                            <input type="text" placeholder="Location"
+                                class="input input-bordered input-warning w-full max-w-xs" />
                         </div>
                         <div class="shadow-2xl pt-4 pb-4 pl-2 pr-2 rounded-lg">
                             <p class="font-bold font-mono"></p>
@@ -137,7 +139,7 @@
                                 <div class="label">
                                     <span class="label-text font-bold">Duration</span>
                                 </div>
-                                <select class="select select-bordered mt-5">
+                                <select class="select select-bordered mt-1.5 border-1 border-yellow-400">
                                     <option disabled selected>pick one</option>
                                     <option>4 Hour</option>
                                     <option>5 Hour</option>
@@ -147,14 +149,15 @@
                                 </select>
                             </label>
                         </div>
-                        <div class="shadow-2xl pt-4 pb-4 pl-2 pr-2 rounded-lg">
-                            <p class="font-bold font-mono">Date</p>
-                            <input class="rounded-lg lg:mt-10 p-2 max-w-full" type="date" name="" id="" placeholder="">
+                        <div class="shadow-2xl pt-4 pl-2 pr-2 space-y-4 rounded-lg">
+                            <span class="label-text font-bold">Date</span>
+                            <input type="date" placeholder=""
+                                class="input input-bordered input-warning w-full mt-2 max-w-xs" />
                         </div>
-                        <div class="shadow-2xl pt-4 pb-4 pl-2 pr-2 rounded-lg">
-                            <p class="font-bold font-mono">Time</p>
-                            <input class="rounded-lg lg:mt-10 p-2 max-w-full" type="time" name="" id=""
-                                placeholder="Enter a location">
+                        <div class="shadow-2xl pt-4 pl-2 pr-2 space-y-4 rounded-lg">
+                            <span class="label-text font-bold">Time</span>
+                            <input type="time" placeholder="Location"
+                                class="input input-bordered input-warning w-full max-w-xs" />
                         </div>
                         <div class="shadow-2xl pt-4 pb-4 pl-2 pr-2 rounded-lg">
                             <!-- form -->
@@ -162,7 +165,7 @@
                                 <div class="label">
                                     <span class="label-text font-bold">Service</span>
                                 </div>
-                                <select class="select select-bordered  lg:mt-7 p-2">
+                                <select class="select select-bordered border-1 border-yellow-400 lg:mt-1.5 p-2">
                                     <option disabled selected>pick one</option>
                                     <option>As directed</option>
                                     <option>Wedding Hire</option>
@@ -206,6 +209,10 @@
 
     </header>
     <main>
+        <!-- what our client section -->
+        <section>
+
+        </section>
         <!-- our service section -->
         <h3 class="text-4xl pirata-one-regular text-center under ">Our Services</h3>
         <section
@@ -248,14 +255,15 @@
         </section>
 
         <!-- popular destination section -->
-        <h3 class="text-4xl text-center mt-28 pirata-one-regular font-bold">popular Destination Section</h3>
+        <h3 class="text-4xl text-center mt-28 pirata-one-regular font-bold">popular Destination</h3>
         <section class="container mx-auto mt-10 flex justify-center items-center">
             <div class="carousel carousel-center rounded-box w-2/3 space-x-2  lg:p-4">
                 <!-- popular destination 1 -->
                 <div class="carousel-item flex flex-col w-64 lg:w-2/3 space-y-3">
                     <img width="450px" src="images/popular-destination-1.jpg" class="rounded-box" />
                     <h2 class="pirata-one-regular text-2xl">Malahide castle and howth</h2>
-                    <p class="text-sm font-extralight w-56 lg:w-96">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    <p class="text-sm font-extralight w-56 lg:w-96">Lorem ipsum dolor sit amet consectetur adipisicing
+                        elit.
                         Nesciunt facilis quas corrupti debitis recusandae repellendus nostrum necessitatibus quos fugit
                         cum!</p>
                 </div>
@@ -263,7 +271,8 @@
                 <div class="carousel-item flex flex-col w-64 lg:w-2/3 space-y-3">
                     <img width="450px" src="images/popular-destination-2.jpg" class="rounded-box" />
                     <h2 class="pirata-one-regular text-2xl">Malahide castle and howth</h2>
-                    <p class="text-sm font-extralight w-56 lg:w-96">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    <p class="text-sm font-extralight w-56 lg:w-96">Lorem ipsum dolor sit amet consectetur adipisicing
+                        elit.
                         Nesciunt facilis quas corrupti debitis recusandae repellendus nostrum necessitatibus quos fugit
                         cum!</p>
                 </div>
@@ -271,7 +280,8 @@
                 <div class="carousel-item flex flex-col w-64 lg:w-2/3 space-y-3">
                     <img width="450px" src="images/popular-destination-3.jpg" class="rounded-box" />
                     <h2 class="pirata-one-regular text-2xl">Glendalough</h2>
-                    <p class="text-sm font-extralight w-56 lg:w-96">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    <p class="text-sm font-extralight w-56 lg:w-96">Lorem ipsum dolor sit amet consectetur adipisicing
+                        elit.
                         Nesciunt facilis quas corrupti debitis recusandae repellendus nostrum necessitatibus quos fugit
                         cum!</p>
                 </div>
@@ -280,7 +290,8 @@
                 <div class="carousel-item flex flex-col w-64 lg:w-2/3 space-y-3">
                     <img width="450px" src="images/popular-destination-4.jpg" class="rounded-box" />
                     <h2 class="pirata-one-regular text-2xl">Galway City</h2>
-                    <p class="text-sm font-extralight w-56 lg:w-96">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    <p class="text-sm font-extralight w-56 lg:w-96">Lorem ipsum dolor sit amet consectetur adipisicing
+                        elit.
                         Nesciunt facilis quas corrupti debitis recusandae repellendus nostrum necessitatibus quos fugit
                         cum!</p>
                 </div>
@@ -288,7 +299,8 @@
                 <div class="carousel-item flex flex-col w-64 lg:w-2/3 space-y-3">
                     <img width="450px" src="images/popular-destination-5.jpg" class="rounded-box" />
                     <h2 class="pirata-one-regular text-2xl">Malahide castle and howth</h2>
-                    <p class="text-sm font-extralight w-56 lg:w-96">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    <p class="text-sm font-extralight w-56 lg:w-96">Lorem ipsum dolor sit amet consectetur adipisicing
+                        elit.
                         Nesciunt facilis quas corrupti debitis recusandae repellendus nostrum necessitatibus quos fugit
                         cum!</p>
                 </div>
